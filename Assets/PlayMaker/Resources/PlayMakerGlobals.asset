@@ -116,6 +116,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {r: 0, g: 0, b: 0, a: 1}
+    - useVariable: 1
+      name: CurrenrtActiveInterfaceMaterial
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    - useVariable: 1
+      name: SetActiveInterfaceColor
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
@@ -147,6 +159,13 @@ MonoBehaviour:
       networkSync: 0
       typeName: UnityEngine.Object
       value: {fileID: 2100000, guid: 5fbdb616af9e71f4c94a4b775b681da8, type: 2}
+    - useVariable: 1
+      name: ActiveInterfaceMaterial
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Object
+      value: {fileID: 2100000, guid: b6cf018bd6080fb4ebbf5c0f1be438e4, type: 2}
     textureVariables: []
     arrayVariables:
     - useVariable: 1
@@ -178,7 +197,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - ReactivateAllTeleportPoints
   - GameManagerActivates

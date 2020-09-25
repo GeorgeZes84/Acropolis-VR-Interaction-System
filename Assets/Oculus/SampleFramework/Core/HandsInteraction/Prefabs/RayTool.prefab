@@ -91,7 +91,7 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.007
+    widthMultiplier: 0.01
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rayToolView: {fileID: 114332492007034412}
-  _coneAngleDegrees: 15
-  _farFieldMaxDistance: 7
+  _coneAngleDegrees: 5
+  _farFieldMaxDistance: 50
 --- !u!64 &5486162606294761855
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -271,8 +271,8 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416015005936930}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
