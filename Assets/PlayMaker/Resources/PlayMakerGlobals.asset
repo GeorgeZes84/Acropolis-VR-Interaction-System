@@ -128,6 +128,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {r: 0, g: 0, b: 0, a: 1}
+    - useVariable: 1
+      name: CurrentExhibitInterfaceColor
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0.90588236, b: 1, a: 1}
+    - useVariable: 1
+      name: SetActiveExhibitInterfaceColor
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
@@ -197,7 +209,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - ReactivateAllTeleportPoints
   - GameManagerActivates
